@@ -36,6 +36,12 @@ contract LivePod_Token{
         emit Burn(msg.sender, _value);
         return true;
     }
+
+    function approve(address _spender, uint256 _value) public returns(bool success){
+
+
+      return true;
+    }
 /*
     //Create New Token
  function mintToken(address target, uint256 mintedAmount) onlyOwner public {
